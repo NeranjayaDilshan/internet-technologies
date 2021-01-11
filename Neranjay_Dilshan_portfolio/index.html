@@ -8,16 +8,20 @@
     <meta content="red" name="theme-color">
     <meta content="width= device-width initial-scale=1 maximum-scaleable-2" name="viewport">
     <link rel="stylesheet" href="assects/normalize.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <style>
-        header {
+        /*Header Style*/
+        body > header:nth-child(1) {
             height: 40px;
             width: 100%;
             background: rgba(41, 41, 41, 1);
-            color: white;
-            position: relative;
+            color: red;
+            position: fixed;
+            z-index: 2;
         }
 
-        header > ul {
+        body > header:nth-child(1) > ul {
             position: absolute;
             right: 20px;
             top: 0;
@@ -26,10 +30,85 @@
             font-size: 15px;
         }
 
-        header > ul > li {
+        body > header:nth-child(1) > ul > li {
             display: inline-block;
             padding: 10px;
         }
+
+        /*Header Style Over*/
+
+        /*Section_01 Style*/
+        main > section {
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+        }
+
+        main > section > img {
+            height: 100vh;
+            width: 100%;
+        }
+
+        main > section:nth-child(1) > aside:nth-child(2) {
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            /*border: 1px solid red;*/
+            position: absolute;
+            top: 100px;
+            left: 80px;
+        }
+
+        main > section:nth-child(1) > aside:nth-child(2) > img {
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+        }
+
+        main > section:nth-child(1) > article {
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        main > section:nth-child(1) > article:nth-child(3) {
+            bottom: 200px;
+            margin: auto;
+            color: red;
+            font-size: 75px;
+            text-align: center;
+        }
+
+        main > section:nth-child(1) > article:nth-child(4) {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        main > section:nth-child(1) > nav:nth-child(5) {
+            width: max-content;
+            height: max-content;
+            background: red;
+            position: fixed;
+            right: 10px;
+            top: 200px;
+            bottom: 0;
+            margin: 0;
+            z-index: 2;
+        }
+
+        main > section:nth-child(1) > nav:nth-child(5) > ul {
+            list-style: none;
+            padding: 0;
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        /*Section_01 Style Over*/
 
 
     </style>
@@ -46,20 +125,36 @@
     </ul>
 </header>
 <main>
-<!--    <section>-->
-<!--        <img src="assects/image/recruiting-engineer.jpg" alt="Cover Photo">-->
-<!--        <aside>-->
-<!--&lt;!&ndash;            <img src="assects/image/Profile.jpeg" alt="">&ndash;&gt;-->
-<!--        </aside>-->
-<!--        <article>-->
-<!--            Hello-->
-<!--        </article>-->
-<!--        <article>-->
-<!--            I,m-->
-<!--            Neranjaya Dilshan-->
-<!--            UX/UI Designer and a Developer-->
-<!--        </article>-->
-<!--    </section>-->
+    <section>
+        <img src="assects/image/recruiting-engineer.jpg" alt="Cover Photo">
+        <aside>
+            <img src="assects/image/Profile.jpeg" alt="">
+        </aside>
+        <article>
+            Hello
+        </article>
+        <article>
+            I,m <br>
+            Neranjaya Dilshan<br>
+            UX/UI Designer and a Developer
+        </article>
+        <nav>
+            <ul>
+                <i class="fab fa-facebook"></i>
+                <li></li>
+                <i class="fab fa-instagram"></i>
+                <li></li>
+                <i class="fab fa-whatsapp"></i>
+                <li></li>
+                <i class="fab fa-linkedin"></i>
+                <li></li>
+                <i class="fab fa-github"></i>
+                <li></li>
+                <i class="fab fa-twitter"></i>
+                <li></li>
+            </ul>
+        </nav>
+    </section>
     <section>
 
     </section>
