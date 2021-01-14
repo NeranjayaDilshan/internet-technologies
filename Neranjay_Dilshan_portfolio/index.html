@@ -92,13 +92,23 @@
         main > section:nth-child(1) > nav:nth-child(5) {
             width: max-content;
             height: max-content;
-            background: red;
+            border-radius: 10px;
+            background: rgba(101, 98, 98, 0.5);
             position: fixed;
             right: 10px;
             top: 200px;
             bottom: 0;
             margin: 0;
             z-index: 2;
+        }
+
+        main > section:nth-child(1) > nav:nth-child(5) > ul > li {
+            margin: 10px;
+        }
+
+        main > section:nth-child(1) > nav:nth-child(5) > ul > i {
+            color: red;
+            padding: 5px;
         }
 
         main > section:nth-child(1) > nav:nth-child(5) > ul {
@@ -109,14 +119,66 @@
         }
 
         /*Section_01 Style Over*/
-
+        /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
         /*Section_02 Style*/
+        /*Header Style*/
         main > section:nth-child(2) {
-            height: 100vh;
-            background: black;
+            height: 100%;
+            background: rgba(0, 0, 0, 1);
             position: absolute;
             top: 100vh;
+
         }
+
+        main > section:nth-child(2) > header {
+            height: 40px;
+            width: 100%;
+            background: rgba(41, 41, 41, 1);
+            position: relative;
+        }
+
+        main > section:nth-child(2) > header > h2 {
+            position: absolute;
+            height: 40px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: 7px;
+            text-align: center;
+            color: red;
+        }
+
+        /*Header Style Over*/
+        /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        /*article Style*/
+
+        main > section:nth-child(2) > article {
+            width: 700px;
+            height: 50vh;
+            text-align: center;
+            background: green;
+            position: absolute;
+            margin: 0;
+
+        }
+
+        main > section:nth-child(2) > aside {
+            width: 500px;
+            height: 100vh;
+            border: 1px solid red;
+            position: absolute;
+            right:0;
+            top: 40px;
+
+        }
+
+        main > section:nth-child(2) > aside > img {
+            width: 500px;
+            height: 100vh;
+        }
+
+        /*article Style*/
 
     </style>
 </head>
@@ -147,7 +209,7 @@
         </article>
         <nav>
             <ul>
-                <i class="fab fa-facebook"></i>
+                <i class="fab fa-facebook" style="margin-top: 10px"></i>
                 <li></li>
                 <i class="fab fa-instagram"></i>
                 <li></li>
@@ -163,6 +225,21 @@
         </nav>
     </section>
     <section>
+        <header>
+            <h2>ABOUT</h2>
+        </header>
+        <article>
+            Name-: A.D Neranjaya Dilshan<br>
+            Age -: 20<br>
+            I'm an UI/UX Designer and a BackEnd Developer From Horana SriLanka. and this is my personal<br> portfolio to
+            keep programming everything that interests me..<br>
+            As a designer and developer, I understand the perfect user interface should look good and work even <br>better.
+
+        </article>
+        <aside>
+            <img src="assects/image/504-5043467_hire-laravel-developers-transparent-png-removebg-preview.png"
+                 alt="image">
+        </aside>
 
     </section>
     <section>
