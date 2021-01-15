@@ -13,9 +13,9 @@
     <style>
         /*Header Style*/
         body > header:nth-child(1) {
-            height: 40px;
+            height: 50px;
             width: 100%;
-            background: rgba(41, 41, 41, 1);
+            background: rgba(41, 41, 41, 0.7);
             color: red;
             position: fixed;
             z-index: 2;
@@ -53,10 +53,10 @@
             height: 200px;
             width: 200px;
             border-radius: 100%;
-            /*border: 1px solid red;*/
             position: absolute;
             top: 100px;
-            left: 80px;
+            bottom: 0;
+            left: 100px;
         }
 
         main > section:nth-child(1) > aside:nth-child(2) > img {
@@ -131,10 +131,13 @@
         }
 
         main > section:nth-child(2) > header {
-            height: 40px;
+            height: 50px;
             width: 100%;
-            background: rgba(41, 41, 41, 1);
-            position: relative;
+            background: rgba(41, 41, 41, 0.7);
+            position: sticky;
+            top: 1px;
+            left: 1px;
+            z-index: 2;
         }
 
         main > section:nth-child(2) > header > h2 {
@@ -152,33 +155,99 @@
         /*Header Style Over*/
         /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
         /*article Style*/
-
         main > section:nth-child(2) > article {
             width: 700px;
-            height: 50vh;
+            height: 100vh;
             text-align: center;
-            background: green;
+            /*background: green;*/
             position: absolute;
             margin: 0;
-
+            top: 0;
         }
 
-        main > section:nth-child(2) > aside {
-            width: 500px;
-            height: 100vh;
-            border: 1px solid red;
+        main > section:nth-child(2) > article > div {
+            width: max-content;
+            height: max-content;
+            text-align: center;
+            color: white;
             position: absolute;
-            right:0;
-            top: 40px;
+            margin: auto;
+            font-size: 30px;
+        }
+
+        main > section:nth-child(2) > article > div:nth-child(1) {
+            top: 0px;
+            bottom: 150px;
+            right: 0;
+            left: 300px;
+            font-size: 50px;
+            padding: 100px;
+        }
+
+
+        main > section:nth-child(2) > article > div:nth-child(2) {
+            top: 200px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding: 100px;
+        }
+
+        main > section:nth-child(2) > article > div:nth-child(3) {
+            top: 400px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding: 100px;
+        }
+
+        /*article Style*/
+
+        main > section:nth-child(2) > aside {
+            width: 400px;
+            height: 100vh;
+            position: absolute;
+            right: 0;
+            top: 0;
 
         }
 
         main > section:nth-child(2) > aside > img {
-            width: 500px;
-            height: 100vh;
+            width: 400px;
+            height: auto;
+            position: absolute;
+            top: 50px;
         }
 
-        /*article Style*/
+        /*Section_02 Style Over*/
+        /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+        /*Section_03 Style*/
+        /*Header Style*/
+        main > section:nth-child(3) {
+            height: 100%;
+            background: rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 200vh;
+        }
+
+        main > section:nth-child(3) > header {
+            height: 50px;
+            width: 100%;
+            background: rgba(41, 41, 41, 0.7);
+            position: relative;
+        }
+
+        main > section:nth-child(3) > header > h2 {
+            position: absolute;
+            height: 40px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: 7px;
+            text-align: center;
+            color: red;
+        }
 
     </style>
 </head>
@@ -229,20 +298,29 @@
             <h2>ABOUT</h2>
         </header>
         <article>
-            Name-: A.D Neranjaya Dilshan<br>
-            Age -: 20<br>
-            I'm an UI/UX Designer and a BackEnd Developer From Horana SriLanka. and this is my personal<br> portfolio to
-            keep programming everything that interests me..<br>
-            As a designer and developer, I understand the perfect user interface should look good and work even <br>better.
-
+            <div>
+                Name-: A.D Neranjaya Dilshan<br>
+                Age -: 20
+            </div>
+            <div>
+                I'm an UI/UX Designer and a BackEnd Developer From Horana SriLanka. and this is my personal<br>
+                portfolio to
+                keep programming everything that interests me.<br>
+            </div>
+            <div>As a designer and developer, I understand the perfect user interface should look good and work even
+                <br>better.
+            </div>
         </article>
         <aside>
             <img src="assects/image/504-5043467_hire-laravel-developers-transparent-png-removebg-preview.png"
-                 alt="image">
+                 alt="image" height="100%">
         </aside>
 
     </section>
     <section>
+        <header>
+            <h2>SKILLS</h2>
+        </header>
         <article></article>
         <aside></aside>
     </section>
