@@ -28,15 +28,13 @@ main > section:nth-child(4) > section {
     height: 200px;
     border: 1px solid red;
     display: flex;
-    padding: 10px;
 }
 
 main > section:nth-child(4) > section > div {
     width: 100px;
     height: 40px;
     background-color: red;
-    margin: auto;
-
-
-
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
 }

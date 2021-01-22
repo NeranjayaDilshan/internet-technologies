@@ -24,12 +24,67 @@ main > section:nth-child(3) > header > h2 {
     color: red;
 }
 
+/*
 main > section:nth-child(3) > section {
     height: 40px;
     border: 1px solid red;
 }
 
-main > section:nth-child(3) > section>div:nth-child(1) {
+main > section:nth-child(3) > section > div:nth-child(1) {
     height: 20px;
-    border: 1px solid green;    
+    border: 1px solid green;
+    background: wheat;
+}*/
+main > section:nth-child(3) > section > p {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+main > section:nth-child(3) > section > div {
+    width: 90%;
+    height: 30px;
+    position: relative;
+    left: 50px;
+}
+
+main > section:nth-child(3) > section > div > div {
+    height: 10px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 22px;
+    margin-bottom: 50px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.java {
+    width: 90%;
+    background-color: #ff0000;
+}
+
+.html {
+    width: 80%;
+    background-color: #ff0000;
+}
+
+.css {
+    width: 65%;
+    background-color: #ff0000;
+}
+
+.mysql {
+    width: 60%;
+    background-color: #ff0000;
 }
