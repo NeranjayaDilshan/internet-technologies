@@ -1,0 +1,42 @@
+main > section:nth-child(4) {
+    height: 100%;
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 300vh;
+}
+
+main > section:nth-child(4) > header {
+    height: 50px;
+    width: 100%;
+    background: rgba(41, 41, 41, 0.7);
+    position: relative;
+}
+
+main > section:nth-child(4) > header > h2 {
+    position: absolute;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 7px;
+    text-align: center;
+    color: red;
+}
+
+main > section:nth-child(4) > section {
+    height: 200px;
+    border: 1px solid red;
+    display: flex;
+    padding: 10px;
+}
+
+main > section:nth-child(4) > section > div {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    margin: auto;
+
+
+
+}

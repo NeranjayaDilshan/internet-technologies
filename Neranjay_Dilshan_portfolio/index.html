@@ -10,246 +10,11 @@
     <link rel="stylesheet" href="assects/normalize.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <style>
-        /*Header Style*/
-        body > header:nth-child(1) {
-            height: 50px;
-            width: 100%;
-            background: rgba(41, 41, 41, 0.7);
-            color: red;
-            position: fixed;
-            z-index: 2;
-        }
-
-        body > header:nth-child(1) > ul {
-            position: absolute;
-            right: 20px;
-            top: 0;
-            margin: 0;
-            list-style: none;
-            font-size: 15px;
-        }
-
-        body > header:nth-child(1) > ul > li {
-            display: inline-block;
-            padding: 10px;
-        }
-
-        /*Header Style Over*/
-
-        /*Section_01 Style*/
-        main > section {
-            height: 100vh;
-            width: 100%;
-            position: absolute;
-        }
-
-        main > section > img {
-            height: 100vh;
-            width: 100%;
-        }
-
-        main > section:nth-child(1) > aside:nth-child(2) {
-            height: 200px;
-            width: 200px;
-            border-radius: 100%;
-            position: absolute;
-            top: 100px;
-            bottom: 0;
-            left: 100px;
-        }
-
-        main > section:nth-child(1) > aside:nth-child(2) > img {
-            height: 200px;
-            width: 200px;
-            border-radius: 100%;
-        }
-
-        main > section:nth-child(1) > article {
-            width: max-content;
-            height: max-content;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-        }
-
-        main > section:nth-child(1) > article:nth-child(3) {
-            bottom: 200px;
-            margin: auto;
-            color: red;
-            font-size: 75px;
-            text-align: center;
-        }
-
-        main > section:nth-child(1) > article:nth-child(4) {
-            font-size: 30px;
-            text-align: center;
-        }
-
-        main > section:nth-child(1) > nav:nth-child(5) {
-            width: max-content;
-            height: max-content;
-            border-radius: 10px;
-            background: rgba(101, 98, 98, 0.5);
-            position: fixed;
-            right: 10px;
-            top: 200px;
-            bottom: 0;
-            margin: 0;
-            z-index: 2;
-        }
-
-        main > section:nth-child(1) > nav:nth-child(5) > ul > li {
-            margin: 10px;
-        }
-
-        main > section:nth-child(1) > nav:nth-child(5) > ul > i {
-            color: red;
-            padding: 5px;
-        }
-
-        main > section:nth-child(1) > nav:nth-child(5) > ul {
-            list-style: none;
-            padding: 0;
-            display: inline-block;
-            font-size: 15px;
-        }
-
-        /*Section_01 Style Over*/
-        /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-        /*Section_02 Style*/
-        /*Header Style*/
-        main > section:nth-child(2) {
-            height: 100%;
-            background: rgba(0, 0, 0, 1);
-            position: absolute;
-            top: 100vh;
-
-        }
-
-        main > section:nth-child(2) > header {
-            height: 50px;
-            width: 100%;
-            background: rgba(41, 41, 41, 0.7);
-            position: sticky;
-            top: 1px;
-            left: 1px;
-            z-index: 2;
-        }
-
-        main > section:nth-child(2) > header > h2 {
-            position: absolute;
-            height: 40px;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: 7px;
-            text-align: center;
-            color: red;
-        }
-
-        /*Header Style Over*/
-        /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-        /*article Style*/
-        main > section:nth-child(2) > article {
-            width: 700px;
-            height: 100vh;
-            text-align: center;
-            /*background: green;*/
-            position: absolute;
-            margin: 0;
-            top: 0;
-        }
-
-        main > section:nth-child(2) > article > div {
-            width: max-content;
-            height: max-content;
-            text-align: center;
-            color: white;
-            position: absolute;
-            margin: auto;
-            font-size: 30px;
-        }
-
-        main > section:nth-child(2) > article > div:nth-child(1) {
-            top: 0px;
-            bottom: 150px;
-            right: 0;
-            left: 300px;
-            font-size: 50px;
-            padding: 100px;
-        }
-
-
-        main > section:nth-child(2) > article > div:nth-child(2) {
-            top: 200px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            padding: 100px;
-        }
-
-        main > section:nth-child(2) > article > div:nth-child(3) {
-            top: 400px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            padding: 100px;
-        }
-
-        /*article Style*/
-
-        main > section:nth-child(2) > aside {
-            width: 400px;
-            height: 100vh;
-            position: absolute;
-            right: 0;
-            top: 0;
-
-        }
-
-        main > section:nth-child(2) > aside > img {
-            width: 400px;
-            height: auto;
-            position: absolute;
-            top: 50px;
-        }
-
-        /*Section_02 Style Over*/
-        /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-        /*Section_03 Style*/
-        /*Header Style*/
-        main > section:nth-child(3) {
-            height: 100%;
-            background: rgba(0, 0, 0, 1);
-            position: absolute;
-            top: 200vh;
-        }
-
-        main > section:nth-child(3) > header {
-            height: 50px;
-            width: 100%;
-            background: rgba(41, 41, 41, 0.7);
-            position: relative;
-        }
-
-        main > section:nth-child(3) > header > h2 {
-            position: absolute;
-            height: 40px;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: 7px;
-            text-align: center;
-            color: red;
-        }
-
-    </style>
+    <link rel="stylesheet" href="assects/css/About.css">
+    <link rel="stylesheet" href="assects/css/Header.css">
+    <link rel="stylesheet" href="assects/css/Home.css">
+    <link rel="stylesheet" href="assects/css/Skill.css">
+    <link rel="stylesheet" href="assects/css/Assigment.css">
 </head>
 <body>
 <header>
@@ -321,10 +86,21 @@
         <header>
             <h2>SKILLS</h2>
         </header>
-        <article></article>
-        <aside></aside>
+        <section>
+            <div>java</div>
+            <div></div>
+        </section>
     </section>
-    <section></section>
+    <section>
+        <header>
+            <h2>ASSIGMENT</h2>
+        </header>
+        <section>
+            <div>All</div>
+            <div>Web</div>
+            <div>java</div>
+        </section>
+    </section>
     <section>
 
     </section>

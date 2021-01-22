@@ -1,0 +1,79 @@
+main > section {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+main > section > img {
+    height: 100vh;
+    width: 100%;
+}
+
+main > section:nth-child(1) > aside:nth-child(2) {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 100px;
+}
+
+main > section:nth-child(1) > aside:nth-child(2) > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+main > section:nth-child(1) > article {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+main > section:nth-child(1) > article:nth-child(3) {
+    bottom: 200px;
+    margin: auto;
+    color: red;
+    font-size: 75px;
+    text-align: center;
+}
+
+main > section:nth-child(1) > article:nth-child(4) {
+    font-size: 30px;
+    text-align: center;
+}
+
+main > section:nth-child(1) > nav:nth-child(5) {
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    background: rgba(101, 98, 98, 0.5);
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    bottom: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+main > section:nth-child(1) > nav:nth-child(5) > ul > li {
+    margin: 10px;
+}
+
+main > section:nth-child(1) > nav:nth-child(5) > ul > i {
+    color: red;
+    padding: 5px;
+}
+
+main > section:nth-child(1) > nav:nth-child(5) > ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    font-size: 15px;
+}
