@@ -9,7 +9,10 @@ main > section:nth-child(4) > header {
     height: 50px;
     width: 100%;
     background: rgba(41, 41, 41, 0.7);
-    position: relative;
+    position: sticky;
+    top: 1px;
+    left: 1px;
+    z-index: 2;
 }
 
 main > section:nth-child(4) > header > h2 {

@@ -77,3 +77,34 @@ main > section:nth-child(1) > nav:nth-child(5) > ul {
     display: inline-block;
     font-size: 15px;
 }
+
+@media all and (max-width: 320px) {
+    main > section {
+        width: 1280px;
+    }
+
+    main > section > img {
+        width: auto;
+    }
+
+    main > section:nth-child(1) > aside:nth-child(2) > img {
+        display: none;
+    }
+
+    main > section:nth-child(1) > article:nth-child(3) {
+        font-size: 142px;
+        bottom: 330px;
+    }
+
+    main > section:nth-child(1) > article:nth-child(4) {
+        font-size: 57px;
+    }
+
+    main > section:nth-child(1) > nav:nth-child(5) > ul {
+        font-size: 44px;
+    }
+
+    main > section:nth-child(1) > nav:nth-child(5) > ul {
+        border-radius: 100px;
+    }
+}
