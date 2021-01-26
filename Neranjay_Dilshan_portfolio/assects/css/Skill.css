@@ -27,17 +27,6 @@ main > section:nth-child(3) > header > h2 {
     color: red;
 }
 
-/*
-main > section:nth-child(3) > section {
-    height: 40px;
-    border: 1px solid red;
-}
-
-main > section:nth-child(3) > section > div:nth-child(1) {
-    height: 20px;
-    border: 1px solid green;
-    background: wheat;
-}*/
 main > section:nth-child(3) > section > p {
     color: white;
     margin-top: 50px;
@@ -74,20 +63,69 @@ main > section:nth-child(3) > section > div > div {
 
 .java {
     width: 90%;
-    background-color: #ff0000;
+    background-color: rgba(23, 70, 104, 1);
 }
 
 .html {
     width: 80%;
-    background-color: #ff0000;
+    background-color: rgba(23, 70, 104, 1);
 }
 
 .css {
     width: 65%;
-    background-color: #ff0000;
+    background-color:rgba(23, 70, 104, 1);
 }
 
 .mysql {
     width: 60%;
-    background-color: #ff0000;
+    background-color: rgba(23, 70, 104, 1);
+}
+
+@media all and (max-width: 320px) {
+    main > section:nth-child(3) > header {
+        height: 100px;
+    }
+
+    main > section:nth-child(3) > header > h2 {
+        font-size: 70px;
+    }
+
+    main > section:nth-child(3) > section > div {
+        height: 60px
+    }
+
+    main > section:nth-child(3) > section > p {
+        font-size: 42px;
+    }
+
+    main > section:nth-child(3) > section > div > div {
+        height: 38px;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 75px;
+    }
+}
+
+@media all and (max-width: 376px) and (min-width: 320px) {
+    main > section:nth-child(3) > header {
+        height: 100px;
+    }
+
+    main > section:nth-child(3) > header > h2 {
+        font-size: 70px;
+    }
+
+    main > section:nth-child(3) > section > div {
+        height: 60px
+    }
+
+    main > section:nth-child(3) > section > p {
+        font-size: 42px;
+    }
+
+    main > section:nth-child(3) > section > div > div {
+        height: 38px;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 75px;
+    }
+
 }

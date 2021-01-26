@@ -1,11 +1,11 @@
-main > section:nth-child(4) {
+main > section:nth-child(5) {
     height: 100%;
     background: rgba(0, 0, 0, 1);
     position: absolute;
-    top: 300vh;
+    top: 400vh;
 }
 
-main > section:nth-child(4) > header {
+main > section:nth-child(5) > header {
     height: 50px;
     width: 100%;
     background: rgba(41, 41, 41, 0.7);
@@ -15,7 +15,7 @@ main > section:nth-child(4) > header {
     z-index: 2;
 }
 
-main > section:nth-child(4) > header > h2 {
+main > section:nth-child(5) > header > h2 {
     position: absolute;
     height: 40px;
     top: 0;
@@ -27,13 +27,14 @@ main > section:nth-child(4) > header > h2 {
     color: red;
 }
 
-main > section:nth-child(4) > section:nth-child(2) {
+main > section:nth-child(5) > section:nth-child(2) {
     height: 100px;
+    /*border: 1px solid red;*/
     display: flex;
     position: relative;
 }
 
-main > section:nth-child(4) > section:nth-child(2) > div {
+main > section:nth-child(5) > section:nth-child(2) > div {
     width: 150px;
     height: 40px;
     background-color: rgba(23, 70, 104, 1);
@@ -48,15 +49,15 @@ main > section:nth-child(4) > section:nth-child(2) > div {
     position: absolute;
 }
 
-main > section:nth-child(4) > section:nth-child(2) > div:nth-child(1) {
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) {
     right: 500px;
 }
 
-main > section:nth-child(4) > section:nth-child(2) > div:nth-child(3) {
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(3) {
     left: 500px;
 }
 
-main > section:nth-child(4) > section:nth-child(3) > div {
+main > section:nth-child(5) > section:nth-child(3) > div {
     width: 300px;
     height: 450px;
     border: 1px solid rgba(23, 70, 104, 1);
@@ -66,7 +67,7 @@ main > section:nth-child(4) > section:nth-child(3) > div {
     border-radius: 20px;
 }
 
-main > section:nth-child(4) > section:nth-child(3) > div > div:nth-child(1) {
+main > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(1) {
     width: 300px;
     height: 230px;
     border: 1px solid rgba(23, 70, 104, 1);
@@ -74,7 +75,7 @@ main > section:nth-child(4) > section:nth-child(3) > div > div:nth-child(1) {
     border-top-right-radius: 20px;
 }
 
-main > section:nth-child(4) > section:nth-child(2) > div > h2 {
+main > section:nth-child(5) > section:nth-child(2) > div > h2 {
     width: max-content;
     height: max-content;
     position: absolute;
@@ -87,7 +88,7 @@ main > section:nth-child(4) > section:nth-child(2) > div > h2 {
 
 }
 
-main > section:nth-child(4) > section:nth-child(4) {
+main > section:nth-child(5) > section:nth-child(4) {
     width: 150px;
     height: max-content;
     background-color: rgba(23, 70, 104, 1);
@@ -102,11 +103,11 @@ main > section:nth-child(4) > section:nth-child(4) {
 }
 
 @media all and (max-width: 320px) {
-    main > section:nth-child(4) > header {
+    main > section:nth-child(5) > header {
         height: 100px;
     }
 
-    main > section:nth-child(4) > header > h2 {
+    main > section:nth-child(5) > header > h2 {
         font-size: 70px;
     }
 
