@@ -103,50 +103,54 @@ main > section:nth-child(5) > section:nth-child(4) {
 }
 
 @media all and (max-width: 320px) {
+    main > section:nth-child(5) {
+        top: 2139px;
+    }
+
     main > section:nth-child(5) > header {
         height: 50px;
     }
 
-    main > section:nth-child(5) > header > h2 {
-        font-size: 25px;
-    }
+    /* main > section:nth-child(5) > header > h2 {
+         font-size: 25px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(2) {
-        height: 50px;
-    }
+     main > section:nth-child(5) > section:nth-child(2) {
+         height: 50px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(2) > div {
-        height: 14px;
-        width: 60px;
-    }
+     main > section:nth-child(5) > section:nth-child(2) > div {
+         height: 14px;
+         width: 60px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(2) > div > h2 {
-        font-size: 10px;
-    }
+     main > section:nth-child(5) > section:nth-child(2) > div > h2 {
+         font-size: 10px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) {
-        right: 200px;
-    }
+     main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) {
+         right: 200px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(2) > div:nth-child(3) {
-        left: 200px;
-    }
+     main > section:nth-child(5) > section:nth-child(2) > div:nth-child(3) {
+         left: 200px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(3) {
-        overflow: auto;
-        height: 80%;
-    }
+     main > section:nth-child(5) > section:nth-child(3) {
+         overflow: auto;
+         height: 80%;
+     }
 
-    main > section:nth-child(5) > section:nth-child(3) > div {
-        width: 248px;
-        height: 336px;
-    }
+     main > section:nth-child(5) > section:nth-child(3) > div {
+         width: 248px;
+         height: 336px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(1) {
-        height: 185px;
-    }
+     main > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(1) {
+         height: 185px;
+     }
 
-    main > section:nth-child(5) > section:nth-child(4) {
-        display: none;
-    }
+     main > section:nth-child(5) > section:nth-child(4) {
+         display: none;
+     }*/
 }

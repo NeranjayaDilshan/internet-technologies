@@ -95,6 +95,10 @@ main > section:nth-child(2) > aside > img {
 }
 
 @media all  and (max-width: 320px) {
+    main > section:nth-child(2) {
+        top: 236px;
+    }
+
     main > section:nth-child(2) > header {
         height: 50px;
     }
@@ -134,39 +138,180 @@ main > section:nth-child(2) > aside > img {
     }
 
     main > section:nth-child(2) > article > div:nth-child(3) {
+        top: 400px;
         width: 100%;
-        margin-top: 0;
         padding: 0;
+        margin-top: 0;
         margin-bottom: 0;
         font-size: 20px;
-        top: 362px;
-
     }
 }
 
 @media all and (max-width: 375px) and (min-width: 320px) {
+    main > section:nth-child(2) {
+        top: 236px;
+    }
+
     main > section:nth-child(2) > header {
-        height: 100px;
+        /*height: 100px;*/
     }
 
     main > section:nth-child(2) > header > h2 {
-        font-size: 70px;
+        /*font-size: 70px;*/
     }
 
     main > section:nth-child(2) > aside > img {
         display: none;
     }
 
-    main > section:nth-child(2) > article > div:nth-child(1) {
-        font-size: 75px;
-        top: 0;
-        bottom: 333px;
-        right: 0;
-        left: 150px;
-        margin: auto;
+    main > section:nth-child(2) > article {
+        width: 100%;
     }
 
-    main > section:nth-child(2) > article > div {
-        font-size: 34px;
+    main > section:nth-child(2) > article > div:nth-child(1) {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 24px;
+        margin-top: 21px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        bottom: 0;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(2) {
+        width: 100%;
+        padding: 0;
+        top: 52px;
+        margin-top: 169px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(3) {
+        top: 400px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    /* main > section:nth-child(2) > article > div:nth-child(1) {
+         font-size: 75px;
+         top: 0;
+         bottom: 333px;
+         right: 0;
+         left: 150px;
+         margin: auto;
+     }*/
+    /* main > section:nth-child(2) > article > div {
+         font-size: 34px;
+     }*/
+
+}
+
+@media all and (min-width: 375px) and (max-width: 425px) {
+    main > section:nth-child(2) {
+        top: 236px;
+    }
+
+    main > section:nth-child(2) > header {
+        /*height: 100px;*/
+    }
+
+    main > section:nth-child(2) > header > h2 {
+        /*font-size: 70px;*/
+    }
+
+    main > section:nth-child(2) > aside  {
+        display: none;
+    }
+
+    main > section:nth-child(2) > article {
+        width: 100%;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(1) {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 24px;
+        margin-top: 21px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        bottom: 0;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(2) {
+        width: 100%;
+        padding: 0;
+        top: 52px;
+        margin-top: 169px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(3) {
+        top: 400px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    main > section:nth-child(2) > aside  {
+        display: none;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px) {
+    /*main > section:nth-child(2) {*/
+    /*    top: 236px;*/
+    /*}*/
+    main > section:nth-child(2) > aside > img {
+        display: none;
+    }
+
+    main > section:nth-child(2) > article {
+        width: 100%;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(1) {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 24px;
+        margin-top: 21px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        bottom: 0;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(2) {
+        width: 100%;
+        padding: 0;
+        top: 52px;
+        margin-top: 169px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(3) {
+        top: 400px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    main > section:nth-child(2) > aside  {
+        display: none;
     }
 }
