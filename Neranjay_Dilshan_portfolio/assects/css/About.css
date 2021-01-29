@@ -226,7 +226,7 @@ main > section:nth-child(2) > aside > img {
         /*font-size: 70px;*/
     }
 
-    main > section:nth-child(2) > aside  {
+    main > section:nth-child(2) > aside {
         display: none;
     }
 
@@ -264,7 +264,8 @@ main > section:nth-child(2) > aside > img {
         margin-bottom: 0;
         font-size: 20px;
     }
-    main > section:nth-child(2) > aside  {
+
+    main > section:nth-child(2) > aside {
         display: none;
     }
 }
@@ -311,7 +312,53 @@ main > section:nth-child(2) > aside > img {
         margin-bottom: 0;
         font-size: 20px;
     }
-    main > section:nth-child(2) > aside  {
+
+    main > section:nth-child(2) > aside {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    main > section:nth-child(2) {
+        height: 100vh;
+    }
+
+    main > section:nth-child(2) > article {
+        width: 100%;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(1) {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 30px;
+        margin-top: 21px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        bottom: 0;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(2) {
+        width: 100%;
+        padding: 0;
+        top: 52px;
+        margin-top: 169px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(2) > article > div:nth-child(3) {
+        top: 400px;
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+
+    main > section:nth-child(2) > aside {
         display: none;
     }
 }
