@@ -104,7 +104,9 @@ main > section:nth-child(5) > section:nth-child(4) {
 
 @media all and (max-width: 320px) {
     main > section:nth-child(5) {
-        top: 2139px;
+        /*top: 2139px;*/
+        top: 2089px;
+
     }
 
     main > section:nth-child(5) > header {

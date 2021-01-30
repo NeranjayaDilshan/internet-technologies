@@ -102,8 +102,8 @@ main > section:nth-child(4) > section:nth-child(4) {
 @media all and (max-width: 320px) {
 
     main > section:nth-child(4) {
-        top: 1425px;
-        /*top: 1374px;*/
+        /*top: 1425px;*/
+        top: 1374px;
     }
 
     main > section:nth-child(4) > header {
@@ -111,7 +111,6 @@ main > section:nth-child(4) > section:nth-child(4) {
     }
 
     main > section:nth-child(4) > section:nth-child(2) {
-        background-color: green;
         height: 50px;
         top: 70px;
         width: 100%;
@@ -159,7 +158,8 @@ main > section:nth-child(4) > section:nth-child(4) {
 
 @media all and (max-width: 375px) and (min-width: 320px) {
     main > section:nth-child(4) {
-        top: 1425px;
+        /*top: 1425px;*/
+        top: 1374px;
     }
 
     main > section:nth-child(4) > section:nth-child(2) {
@@ -183,7 +183,7 @@ main > section:nth-child(4) > section:nth-child(4) {
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 120px;
+        top: 242px;
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(1, 1fr);
@@ -203,8 +203,8 @@ main > section:nth-child(4) > section:nth-child(4) {
 
 @media all and (min-width: 375px) and (max-width: 425px) {
     main > section:nth-child(4) {
-        top: 1425px;
-
+        /*top: 1425px;*/
+        top: 1374px;
     }
 
     main > section:nth-child(4) > section:nth-child(2) {
@@ -228,7 +228,7 @@ main > section:nth-child(4) > section:nth-child(4) {
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 120px;
+        top: 242px;
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(1, 1fr);
@@ -272,6 +272,7 @@ main > section:nth-child(4) > section:nth-child(4) {
         height: 100%;
         position: absolute;
         /*top: 120px;*/
+        top: 242px;
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(2, 1fr);
