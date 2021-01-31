@@ -1,48 +1,54 @@
-main > section:nth-child(3) {
-    height: 100%;
-    background: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 200vh;
-}
-
-main > section:nth-child(3) > header {
+.skill_Header {
     height: 50px;
-    width: 100%;
+    position: relative;
     background: rgba(41, 41, 41, 0.7);
-    position: sticky;
-    top: 1px;
-    left: 1px;
-    z-index: 2;
+    color: red;
+    padding: 0;
+    text-align: center;
+
 }
 
-main > section:nth-child(3) > header > h2 {
+.skill_Header > div {
+    width: max-content;
+    height: max-content;
+    font-size: 25px;
     position: absolute;
-    height: 40px;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    margin: 7px;
-    text-align: center;
-    color: red;
+    margin: auto;
 }
 
-main > section:nth-child(3) > section > p {
+.skill {
+    height: 580px;
+    position: relative;
+    bottom: 50px;
+}
+
+.skill > section {
+    position: relative;
+    top: 30px;
+}
+
+.skill > section > p {
     color: white;
     margin-top: 50px;
     margin-bottom: 30px;
     padding-left: 50px;
+    font-size: 20px;
 }
 
-main > section:nth-child(3) > section > div {
+.skill > section > div {
     width: 90%;
-    height: 30px;
+    height: 35px;
     position: relative;
     left: 50px;
+    padding-right: 0;
 }
 
-main > section:nth-child(3) > section > div > div {
-    height: 10px;
+.skill > section > div > div {
+    height: 15px;
 }
 
 .container {
@@ -82,136 +88,156 @@ main > section:nth-child(3) > section > div > div {
 }
 
 @media all and (max-width: 320px) {
-    main > section:nth-child(3) {
-        /*top: 830px;*/
-        top: 780px;
-        /*height: auto;*/
+    .skill_Header {
+
     }
 
-    main > section:nth-child(3) > header {
-        height: 50px;
+    .skill {
+        height: 400px;
     }
 
-    main > section:nth-child(3) > header > h2 {
-        font-size: 25px;
+    .skill > section > p {
+        font-size: 12px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 25px;
     }
 
-    main > section:nth-child(3) > section > div {
-        height: 20px;
-        left: 20px;
+    .skill > section > div {
+        width: 90%;
+        height: 15px;
+        position: relative;
+        left: 25px;
+        padding-right: 0;
     }
 
-    main > section:nth-child(3) > section > p {
-        font-size: 10px;
-        padding-left: 20px;
-    }
-
-    main > section:nth-child(3) > section > div > div {
-        /*height: 10px;*/
-        height: 0px;
-        left: 20px;
-        border-top-right-radius: 75px;
-        border-bottom-right-radius: 75px;
+    .skill > section > div > div {
+        height: 0;
     }
 }
 
-@media all and (max-width: 375px) and (min-width: 320px) {
-    main > section:nth-child(3) {
-        /*top: 830px;*/
-        top: 780px;
+@media all and (min-width: 320px)and (max-width: 375px) {
+    .skill_Header {
+        top: 53px;
     }
 
-    main > section:nth-child(3) > header {
-        height: 50px;
+    .skill {
+        bottom: 0;
+        height: 400px;
     }
 
-    main > section:nth-child(3) > section > div {
-        height: 20px;
-        left: 20px;
+    .skill > section > p {
+        font-size: 12px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 25px;
     }
 
-    main > section:nth-child(3) > section > p {
-        font-size: 10px;
-        padding-left: 20px;
+    .skill > section > div {
+        width: 90%;
+        height: 15px;
+        position: relative;
+        left: 25px;
+        padding-right: 0;
     }
 
-    main > section:nth-child(3) > section > div > div {
-        /*height: 10px;*/
-        height: 0px;
-        left: 20px;
-        border-top-right-radius: 75px;
-        border-bottom-right-radius: 75px;
+    .skill > section > div > div {
+        height: 0;
     }
-
 }
 
-@media all and (min-width: 374px) and (max-width: 425px) {
-    main > section:nth-child(3) {
-        /*top: 830px;*/
-        top: 780px;
+@media all and (min-width: 375px) and (max-width: 425px) {
+    .skill_Header {
+        top: 50px;
     }
 
-    main > section:nth-child(3) > header {
-        height: 50px;
+    .skill {
+        bottom: 0;
+        height: 410px;
     }
 
-    main > section:nth-child(3) > section > div {
+    .skill > section > p {
+        font-size: 12px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+    }
+
+    .skill > section > div {
+        width: 90%;
         height: 20px;
-        left: 20px;
+        position: relative;
+        left: 25px;
+        padding-right: 0;
     }
 
-    main > section:nth-child(3) > section > p {
-        font-size: 10px;
-        padding-left: 20px;
-    }
-
-    main > section:nth-child(3) > section > div > div {
-        /*height: 10px;*/
-        height: 0px;
-        left: 20px;
-        border-top-right-radius: 75px;
-        border-bottom-right-radius: 75px;
+    .skill > section > div > div {
+        height: 0;
     }
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
-    main > section:nth-child(3) {
-        height: 100vh;
+    .skill {
+        bottom: 0;
     }
 
-    main > section:nth-child(3) > header {
-        height: 50px;
+    .skill {
+        /*bottom: 0;*/
+        height: 420px;
+        bottom: 50px
     }
 
-    main > section:nth-child(3) > section > div {
+    .skill > section > p {
+        font-size: 12px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+    }
+
+    .skill > section > div {
+        width: 90%;
         height: 20px;
-        left: 20px;
+        position: relative;
+        left: 25px;
+        padding-right: 0;
     }
 
-    main > section:nth-child(3) > section > p {
-        font-size: 10px;
-        padding-left: 20px;
-    }
-
-    main > section:nth-child(3) > section > div > div {
-        /*height: 10px;*/
-        height: 0px;
-        left: 20px;
-        border-top-right-radius: 75px;
-        border-bottom-right-radius: 75px;
+    .skill > section > div > div {
+        height: 0;
     }
 }
 
-@media all and (min-width: 1024px) and (max-width: 768px) {
-    main > section:nth-child(3) > section:nth-child(2) {
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    .skill_Header {
+        top: 30px;
+    }
 
+    .skill {
+        bottom: 20px;
+        height: 470px;
     }
-    main > section:nth-child(3) > section > div {
-        height: 20px;
-        left: 20px;
+
+    .skill > section > p {
+        font-size: 12px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 25px;
     }
-    main > section:nth-child(3) > section > p {
-        font-size: 10px;
-        padding-left: 20px;
+
+    .skill > section > div {
+        width: 90%;
+        height: 30px;
+        position: relative;
+        left: 25px;
+        padding-right: 0;
+    }
+
+    .skill > section > div > div {
+        height: 10px;
     }
 }

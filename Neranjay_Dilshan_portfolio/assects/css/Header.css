@@ -1,3 +1,4 @@
+
 body > header:nth-child(1) {
     height: 50px;
     width: 100%;
@@ -13,12 +14,37 @@ body > header:nth-child(1) > ul {
     top: 0;
     margin: 0;
     list-style: none;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 body > header:nth-child(1) > ul > li {
     display: inline-block;
-    padding: 10px;
+    /*padding: 10px;*/
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    /*padding: 10px 16px;*/
+    text-decoration: none;
+}
+
+body > header:nth-child(1) > ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+body > header:nth-child(1) > ul > li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*.active {*/
+/*    background-color: rgba(23, 70, 104, 1);*/
+/*}*/
+
+body > header:nth-child(1) > ul > li > a {
+    color: red;
 }
 
 @media all and (max-width: 320px) {
@@ -51,9 +77,8 @@ body > header:nth-child(1) > ul > li {
     }
 
     body > header:nth-child(1) > ul {
-        font-size: 10px;
+        display: none;
     }
-
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
@@ -62,7 +87,7 @@ body > header:nth-child(1) > ul > li {
     }
 
     body > header:nth-child(1) > ul {
-        font-size: 15px;
+        display: none;
     }
 }
 
@@ -72,8 +97,6 @@ body > header:nth-child(1) > ul > li {
     }
 
     body > header:nth-child(1) > ul {
-        font-size: 20px;
+        /*font-size: 20px;*/
     }
 }
-
-

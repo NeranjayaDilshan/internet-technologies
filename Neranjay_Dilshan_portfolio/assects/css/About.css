@@ -1,364 +1,83 @@
-
-main > section:nth-child(2) {
-    height: 100%;
-    background: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 100vh;
-
-}
-
-main > section:nth-child(2) > header {
+.about_Header {
     height: 50px;
-    width: 100%;
+    position: relative;
+    bottom: 5px;
+
     background: rgba(41, 41, 41, 0.7);
-    position: sticky;
-    top: 1px;
-    left: 1px;
-    z-index: 2;
-}
-
-main > section:nth-child(2) > header > h2 {
-    position: absolute;
-    height: 40px;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: 7px;
-    text-align: center;
     color: red;
-}
-
-
-main > section:nth-child(2) > article {
-    width: 700px;
-    height: 100vh;
+    padding: 0;
     text-align: center;
-    /*background: green;*/
-    position: absolute;
-    margin: 0;
-    top: 0;
 }
 
-main > section:nth-child(2) > article > div {
+.about_Header > div {
     width: max-content;
     height: max-content;
-    text-align: center;
-    color: white;
+    font-size: 25px;
     position: absolute;
-    margin: auto;
-    font-size: 30px;
-}
-
-main > section:nth-child(2) > article > div:nth-child(1) {
-    top: 0px;
-    bottom: 150px;
-    right: 0;
-    left: 300px;
-    font-size: 50px;
-    padding: 100px;
-}
-
-
-main > section:nth-child(2) > article > div:nth-child(2) {
-    top: 200px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 100px;
-}
-
-main > section:nth-child(2) > article > div:nth-child(3) {
-    top: 400px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 100px;
-}
-
-/*article Style*/
-
-main > section:nth-child(2) > aside {
-    width: 400px;
-    height: 100vh;
-    position: absolute;
-    right: 0;
     top: 0;
-
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
-main > section:nth-child(2) > aside > img {
-    width: 400px;
-    height: auto;
-    position: absolute;
-    top: 50px;
+.about {
+    width: 100%;
+    height: 358px;
 }
 
-@media all  and (max-width: 320px) {
-    main > section:nth-child(2) {
-        top: 236px;
-    }
+.about > article {
+    position: relative;
+}
 
-    main > section:nth-child(2) > header {
-        height: 50px;
-    }
+.about > article > div {
+    /*border: 1px solid white;*/
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    color: white;
+}
 
-    main > section:nth-child(2) > article {
-        width: 100%;
-    }
+.about > article > div:nth-child(1) {
+    top: 40px;
+}
 
-    main > section:nth-child(2) > header > h2 {
-        font-size: 25px;
-    }
+.about > article > div:nth-child(2) {
+    top: 90px;
+}
 
-    main > section:nth-child(2) > aside {
-        display: none;
-    }
+.about > article > div:nth-child(3) {
+    top: 130px;
+}
 
-    main > section:nth-child(2) > article > div:nth-child(1) {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 24px;
-        margin-top: 21px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        bottom: 0;
-    }
 
-    main > section:nth-child(2) > article > div:nth-child(2) {
-        width: 100%;
-        padding: 0;
-        top: 52px;
-        margin-top: 169px;
-        margin-bottom: 0;
-        font-size: 20px;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(3) {
-        top: 400px;
-        width: 100%;
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 20px;
+@media all and (max-width: 320px) {
+    .about > article > div {
+        font-size: 15px;
     }
 }
 
-@media all and (max-width: 375px) and (min-width: 320px) {
-    main > section:nth-child(2) {
-        top: 236px;
-    }
-
-    main > section:nth-child(2) > header {
-        /*height: 100px;*/
-    }
-
-    main > section:nth-child(2) > header > h2 {
-        /*font-size: 70px;*/
-    }
-
-    main > section:nth-child(2) > aside > img {
-        display: none;
-    }
-
-    main > section:nth-child(2) > article {
-        width: 100%;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(1) {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 24px;
-        margin-top: 21px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        bottom: 0;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(2) {
-        width: 100%;
-        padding: 0;
-        top: 52px;
-        margin-top: 169px;
-        margin-bottom: 0;
+@media all and (min-width: 320px)and (max-width: 375px) {
+    .about > article > div {
         font-size: 20px;
     }
-
-    main > section:nth-child(2) > article > div:nth-child(3) {
-        top: 400px;
-        width: 100%;
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 20px;
-    }
-
-    /* main > section:nth-child(2) > article > div:nth-child(1) {
-         font-size: 75px;
-         top: 0;
-         bottom: 333px;
-         right: 0;
-         left: 150px;
-         margin: auto;
-     }*/
-    /* main > section:nth-child(2) > article > div {
-         font-size: 34px;
-     }*/
-
 }
 
 @media all and (min-width: 375px) and (max-width: 425px) {
-    main > section:nth-child(2) {
-        top: 236px;
-    }
-
-    main > section:nth-child(2) > header {
-        /*height: 100px;*/
-    }
-
-    main > section:nth-child(2) > header > h2 {
-        /*font-size: 70px;*/
-    }
-
-    main > section:nth-child(2) > aside {
-        display: none;
-    }
-
-    main > section:nth-child(2) > article {
-        width: 100%;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(1) {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 24px;
-        margin-top: 21px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        bottom: 0;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(2) {
-        width: 100%;
-        padding: 0;
-        top: 52px;
-        margin-top: 169px;
-        margin-bottom: 0;
+    .about > article > div {
         font-size: 20px;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(3) {
-        top: 400px;
-        width: 100%;
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 20px;
-    }
-
-    main > section:nth-child(2) > aside {
-        display: none;
     }
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
-    /*main > section:nth-child(2) {*/
-    /*    top: 236px;*/
-    /*}*/
-    main > section:nth-child(2) > aside > img {
-        display: none;
-    }
-
-    main > section:nth-child(2) > article {
-        width: 100%;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(1) {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 24px;
-        margin-top: 21px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        bottom: 0;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(2) {
-        width: 100%;
-        padding: 0;
-        top: 52px;
-        margin-top: 169px;
-        margin-bottom: 0;
+    .about > article > div {
         font-size: 20px;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(3) {
-        top: 400px;
-        width: 100%;
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 20px;
-    }
-
-    main > section:nth-child(2) > aside {
-        display: none;
     }
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
-    main > section:nth-child(2) {
-        height: 100vh;
-    }
-
-    main > section:nth-child(2) > article {
-        width: 100%;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(1) {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 30px;
-        margin-top: 21px;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        bottom: 0;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(2) {
-        width: 100%;
-        padding: 0;
-        top: 52px;
-        margin-top: 169px;
-        margin-bottom: 0;
-        font-size: 20px;
-    }
-
-    main > section:nth-child(2) > article > div:nth-child(3) {
-        top: 400px;
-        width: 100%;
-        padding: 0;
-        margin-top: 0;
-        margin-bottom: 0;
+    .about > article > div {
         font-size: 25px;
     }
-
-    main > section:nth-child(2) > aside {
-        display: none;
-    }
 }
+
