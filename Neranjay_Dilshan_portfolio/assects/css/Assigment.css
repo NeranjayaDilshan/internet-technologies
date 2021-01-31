@@ -21,6 +21,94 @@
     margin: auto;
 }
 
+/*.assigment > section {
+    height: 100px;
+    background-color: red;
+    display: flex;
+    position: relative;
+}*/
+
+/*.assigment > section > div {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(23, 70, 104, 1);
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.assigment > section > div > div {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.assigment > section > div:nth-child(1) {
+    right: 500px;
+}
+
+.assigment > section > div:nth-child(3) {
+    !*left: 500px;*!
+}
+
+.assigment > section > div:nth-child(1) > div {
+    right: 500px;
+}
+
+.assigment > section > div:nth-child(3) > div {
+    left: 500px;
+}*/
+.assigment {
+    position: relative;
+    height: 100vh;
+}
+
+.assigment .grid {
+    overflow: hidden;
+    position: absolute;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 25px;
+}
+
+.assigment > section > div {
+    border: 1px solid red;
+    position: relative;
+    width: 90%;
+    height: 75%;
+}
+
+.view_more {
+    height: max-content;
+    width: max-content;
+    border: 1px solid red;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 640px;
+    color: white;
+    text-align: center;
+}
+
 @media all and (max-width: 320px) {
 
 }
