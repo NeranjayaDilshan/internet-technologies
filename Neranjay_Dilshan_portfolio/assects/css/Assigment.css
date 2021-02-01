@@ -21,60 +21,42 @@
     margin: auto;
 }
 
-/*.assigment > section {
+.assigment > .head {
     height: 100px;
-    background-color: red;
+    /*width: 300px;*/
+    /*background-color: red;*/
     display: flex;
     position: relative;
-}*/
+}
 
-/*.assigment > section > div {
+.assigment > .head > div {
     width: 150px;
     height: 40px;
     background-color: rgba(23, 70, 104, 1);
-    color: white;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
-    text-align: center;
-    border-radius: 20px;
-    position: absolute;
+    border-radius: 15px;
+    position: relative;
 }
 
-.assigment > section > div > div {
+.assigment > .head > div > div {
     width: max-content;
     height: max-content;
-    position: absolute;
-    top: 0;
     left: 0;
     right: 0;
+    top: 0;
     bottom: 0;
     margin: auto;
+    position: absolute;
+    font-size: 20px;
 }
 
-.assigment > section > div:nth-child(1) {
-    right: 500px;
-}
-
-.assigment > section > div:nth-child(3) {
-    !*left: 500px;*!
-}
-
-.assigment > section > div:nth-child(1) > div {
-    right: 500px;
-}
-
-.assigment > section > div:nth-child(3) > div {
-    left: 500px;
-}*/
 .assigment {
     position: relative;
     height: 100vh;
 }
 
-.assigment .grid {
+.assigment > .grid {
+    top: 100px;
     overflow: hidden;
     position: absolute;
     display: grid;
@@ -82,17 +64,23 @@
     grid-template-columns: repeat(4, 1fr);
     left: 0;
     right: 0;
-    top: 0;
+    /*top: 0;*/
     bottom: 0;
     margin: auto;
     padding: 25px;
 }
 
-.assigment > section > div {
+.assigment > .grid > div {
     border: 1px solid red;
     position: relative;
     width: 90%;
     height: 75%;
+}
+
+.assigment > .grid > div > div:nth-child(1) {
+    width: 100%;
+    height: 50%;
+    border: 1px solid green;
 }
 
 .view_more {
@@ -110,12 +98,96 @@
 }
 
 @media all and (max-width: 320px) {
+    .assigment > .grid {
+        top: 100px;
+        position: absolute;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        left: 0;
+        right: 0;
+        /*top: 0;*/
+        bottom: 0;
+        margin: auto;
+    }
 
+    .assigment > .grid > div {
+        border: 1px solid red;
+        position: relative;
+        width: 90%;
+        /*height: 75%;*/
+        height: 350px;
+        margin: 10px;
+    }
+
+    .assigment > .grid > div > div:nth-child(1) {
+        width: 100%;
+        height: 50%;
+        border: 1px solid green;
+    }
+
+    .view_more {
+        display: none;
+    }
+
+    .assigment > .head {
+        height: 50px;
+        display: flex;
+        position: relative;
+    }
+
+    .assigment > .head > div {
+        width: 90px;
+        height: 20px;
+        background-color: rgba(23, 70, 104, 1);
+        margin: auto;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .assigment > .head > div > div {
+        width: max-content;
+        height: max-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        font-size: 15px;
+    }
 }
 
 @media all and (min-width: 320px)and (max-width: 375px) {
     .assigment_Header {
         top: 0;
+    }
+
+    .assigment > .grid {
+        top: 100px;
+        position: absolute;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        left: 0;
+        right: 0;
+        /*top: 0;*/
+        bottom: 0;
+        margin: auto;
+    }
+
+    .assigment > .grid > div {
+        border: 1px solid red;
+        position: relative;
+        width: 90%;
+        /*height: 75%;*/
+        height: 350px;
+        margin: 10px;
+
+    }
+
+    .view_more {
+        display: none;
     }
 }
 
@@ -123,10 +195,58 @@
     .assigment_Header {
         top: 0;
     }
+
+    .assigment > .grid {
+        overflow: auto;
+        top: 100px;
+        position: absolute;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        left: 0;
+        right: 0;
+        /*top: 0;*/
+        bottom: 0;
+        margin: auto;
+    }
+
+    .assigment > .grid > div {
+        border: 1px solid red;
+        position: relative;
+        width: 90%;
+        margin: 10px;
+        /*height: 75%;*/
+        height: 350px;
+    }
+
+    .view_more {
+        display: none;
+    }
 }
 
 @media all and (min-width: 425px) and (max-width: 768px) {
+    .assigment > .grid {
+        top: 100px;
+        position: absolute;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        left: 0;
+        right: 0;
+        /*top: 0;*/
+        bottom: 0;
+        margin: auto;
+    }
 
+    .assigment > .grid > div {
+        border: 1px solid red;
+        position: relative;
+        width: 90%;
+        /*height: 75%;*/
+        /*height: 350px;*/
+        /*margin: 10px;*/
+
+    }
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
