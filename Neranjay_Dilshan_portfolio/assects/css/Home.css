@@ -1,3 +1,14 @@
+#glow {
+    animation: golw 2s infinite;
+    animation-duration: 10s;
+    filter: invert(1);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
 .home {
     /*background-color: red;*/
     position: relative;
@@ -18,6 +29,7 @@
     text-align: center;
     margin: auto;
     font-size: 40px;
+    animation: bounce 2s steps(2);
 }
 
 .home > nav {
@@ -56,12 +68,14 @@
 @media all and (max-width: 320px) {
     .home > article {
         font-size: 15px;
+        top: 80px;
     }
 }
 
 @media all and (min-width: 320px)and (max-width: 375px) {
     .home > article {
         font-size: 15px;
+        top: 80px;
     }
 }
 

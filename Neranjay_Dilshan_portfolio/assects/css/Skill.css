@@ -56,6 +56,8 @@
     background-color: #ddd;
     border-radius: 22px;
     margin-bottom: 50px;
+    /*width: 100%;*/
+
 }
 
 .skills {
@@ -65,16 +67,19 @@
     color: white;
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
+    height: 20px;
 }
 
 .java {
     width: 90%;
     background-color: rgba(23, 70, 104, 1);
+
 }
 
 .html {
     width: 80%;
     background-color: rgba(23, 70, 104, 1);
+
 }
 
 .css {
