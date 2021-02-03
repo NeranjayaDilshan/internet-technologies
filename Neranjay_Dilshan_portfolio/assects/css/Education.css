@@ -27,8 +27,8 @@
     display: flex;
 }
 
-/*.education > div {*/
-/*    width: calc(100% / 3);*/
-/*    height: 100%;*/
-/*    background-color: dodgerblue;*/
-/*}*/
+.education > div {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: dodgerblue;
+}
