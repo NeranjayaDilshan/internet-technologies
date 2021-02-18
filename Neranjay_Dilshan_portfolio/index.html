@@ -16,22 +16,25 @@
     <link rel="stylesheet" href="assects/css/Skill.css">
     <link rel="stylesheet" href="assects/css/Assigment.css">
     <link rel="stylesheet" href="assects/css/Project.css">
+    <link rel="stylesheet" href="assects/css/Contact.css">
+    <link rel="stylesheet" href="assects/Style.css">
+    <link rel="stylesheet" href="assects/css/Comment.css">
     <link rel="stylesheet" href="assects/css/Education.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background: black">
 <header>
     <ul>
-        <!--        <li><a class="active" href="#home">Home</a></li>-->
         <li><a href="#home">Home</a></li>
-        <li><a href="#news">About</a></li>
-        <li><a href="#contact">Skills</a></li>
-        <li><a href="#about">Assigment</a></li>
-        <li><a href="#about">Projects</a></li>
-        <li><a href="#about">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#assigment">Assigment</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!--        <li><a href="#education">Education</a></li>-->
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </header>
-<section class="home">
+<section id="home" class="home">
     <img src="assects/image/recruiting-engineer.jpg" alt="Cover Photo">
     <article>
         Hello<br>
@@ -56,7 +59,7 @@
         </ul>
     </nav>
 </section>
-<section class="about_Header">
+<section id="about" class="about_Header">
     <div>ABOUT ME</div>
 </section>
 <section class="about">
@@ -75,7 +78,7 @@
         </div>
     </article>
 </section>
-<section class="skill_Header">
+<section id="skills" class="skill_Header">
     <div>SKILLS</div>
 </section>
 <section class="skill">
@@ -101,7 +104,7 @@
         </div>
     </section>
 </section>
-<section class="assigment_Header">
+<section id="assigment" class="assigment_Header">
     <div>ASSIGMENT</div>
 </section>
 <section class="assigment">
@@ -166,7 +169,7 @@
     </section>
     <section class="view_more">View More</section>
 </section>
-<section class="project_Header">
+<section id="projects" class="project_Header">
     <div>PROJECT</div>
 </section>
 <section class="assigment">
@@ -202,14 +205,62 @@
     </section>
     <section class="view_more">View More</section>
 </section>
-<section class="education_Header">
+<!--<section id="education" class="education_Header">
     <div>EDUCATION</div>
 </section>
 <section class="education">
     <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="a">
+        <div class="b">
+            Primary Education <br> Ashoka College Horana <br> 2004-2016
+        </div>
+    </div>
+    <div class="a">
+        <div class="b">
+            Secondary Education <br> Taxila Central College Horana <br> 2017-2019
+        </div>
+    </div>
+    <div class="a">
+        <div class="b">
+            Higher Educarion <br> Institute of Java and Software Engineering <br> 2020-yet
+        </div>
+    </div>
+</section>-->
+<section id="comment" class="Comment_Header">
+    <div>COMMENTS</div>
 </section>
+<section class="comment col-lg-12">
+    <form class="p-4">
+        <div class="mb-2 ">
+            <label for="name" class="form-label col-12">Name
+                <input type="text" class="form-control col-12" id="name"></label>
+        </div>
+        <div class="mb-2 ">
+            <label for="email" class="form-label col-12">Email
+                <input type="email" class="form-control col-12" id="email"></label>
+        </div>
+        <div class="mb-2">
+
+            <label for="message" class="form-label col-12" style="color: white">Message
+                <input type="text" class="form-control col-12" id="message"></label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-danger">Cancel</button>
+    </form>
+</section>
+<section id="contact" class="contact_Header">
+    <div>CONTACT</div>
+</section>
+<footer class="contact">
+    <div class="div">
+        <div class="text">
+            Thanks For Visiting Me <br> <br>
+            E-mail : neranjayadilshan@gmail.com <br> <br>
+            Contact Me : +94 789154821 / +94764640457 <br> <br>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>

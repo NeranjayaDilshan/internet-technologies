@@ -234,7 +234,7 @@
 
     .assigment > .head {
         height: 50px;
-        display: flex;
+        display: none;
         position: relative;
         /*border: 1px solid red;*/
         bottom: 50px
@@ -568,37 +568,13 @@
     .view_more {
         display: none;
     }
-
-    /*.assigment > .head {*/
-    /*    height: 50px;*/
-    /*    display: flex;*/
-    /*    position: relative;*/
-    /*}*/
-    /*.assigment > .head > div {*/
-    /*    width: 90px;*/
-    /*    height: 20px;*/
-    /*    background-color: rgba(23, 70, 104, 1);*/
-    /*    margin: auto;*/
-    /*    border-radius: 15px;*/
-    /*    position: relative;*/
-    /*}*/
-    /*.assigment > .head > div > div {*/
-    /*    width: max-content;*/
-    /*    height: max-content;*/
-    /*    left: 0;*/
-    /*    right: 0;*/
-    /*    top: 0;*/
-    /*    bottom: 0;*/
-    /*    margin: auto;*/
-    /*    position: absolute;*/
-    /*    font-size: 15px;*/
-    /*}*/
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
     .assigment_Header {
         bottom: 25px;
     }
+
 
     .assigment > .grid {
         overflow: auto;
