@@ -21,3 +21,8 @@
 ::-webkit-scrollbar-thumb:hover {
     background: white;
 }
+
+
+* {
+    scroll-behavior: smooth;
+}

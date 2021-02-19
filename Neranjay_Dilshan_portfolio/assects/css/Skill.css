@@ -60,6 +60,69 @@
 
 }
 
+/*----------------------------Animation ----------------------------*/
+.java {
+    width: 100%;
+    animation: java 4s;
+    background-color: #ddd;
+}
+
+.html {
+    width: 100%;
+    animation: html 4s;
+    background-color: #ddd;
+}
+
+.css {
+    width: 100%;
+    animation: css 4s;
+    background-color: #ddd;
+}
+
+.mysql {
+    width: 100%;
+    animation: mysql 4s;
+    background-color: #ddd;
+}
+
+@keyframes java {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 90%
+    }
+}
+
+@keyframes html {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 80%
+    }
+}
+
+@keyframes css {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 65%
+    }
+}
+
+@keyframes mysql {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 70%
+    }
+}
+
+/*----------------------------Animation-----------------------------*/
+
 .skills {
     text-align: right;
     padding-top: 10px;
@@ -88,7 +151,7 @@
 }
 
 .mysql {
-    width: 60%;
+    width: 70%;
     background-color: rgba(23, 70, 104, 1);
 }
 

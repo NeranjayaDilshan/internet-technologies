@@ -47,8 +47,14 @@
     bottom: 0;
     margin: auto;
     position: absolute;
+    text-align: center;
     font-size: 20px;
     color: white;
+}
+
+.head > div > div:hover {
+    color: red;
+    cursor: pointer;
 }
 
 .assigment {

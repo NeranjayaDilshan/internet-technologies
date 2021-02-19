@@ -21,6 +21,16 @@
     margin: auto;
 }
 
+.myDropcap {
+    font-size: 50px;
+    line-height: 1.4em;
+    font-weight: bold;
+    vertical-align: middle;
+    /*background-color: darksalmon;*/
+    /*padding: 18px;*/
+    color: red;
+}
+
 .about {
     width: 100%;
     height: 358px;
@@ -43,11 +53,11 @@
 }
 
 .about > article > div:nth-child(2) {
-    top: 90px;
+    top: 65px;
 }
 
 .about > article > div:nth-child(3) {
-    top: 130px;
+    top: 100px;
 }
 
 
