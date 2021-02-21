@@ -59,12 +59,12 @@
 
 .assigment {
     position: relative;
-    height: 100vh;
+    height: 89vh;
 }
 
 .assigment > .grid {
     top: 100px;
-    overflow: hidden;
+    overflow: auto;
     position: absolute;
     display: grid;
     grid-gap: 5px;
@@ -82,7 +82,7 @@
     background: white;
     position: relative;
     width: 75%;
-    height: 75%;
+    height: 465px;
     border-radius: 20px;
     margin: 20px;
     box-shadow: 2px 2px 7px 4px floralwhite;
@@ -152,11 +152,14 @@
     position: absolute;
     font-size: 20px;
     color: red;
+
 }
 
 .grid > div > div:nth-child(3) > div > a {
     color: white;
+    text-decoration: none;
 }
+
 .grid > div > div:nth-child(3) > div > a:hover {
     color: red;
 }
@@ -226,6 +229,10 @@
         top: 0;
         bottom: 0;
         margin: auto;
+    }
+
+    .assigment {
+        height: 85vh;
     }
 
     .assigment > .grid > div {
@@ -318,6 +325,11 @@
     .assigment_Header {
         top: 0;
     }
+
+    .assigment {
+        height: 93vh;
+    }
+
 
     .assigment > .grid {
         overflow: auto;
@@ -420,6 +432,10 @@
 @media all and (min-width: 375px) and (max-width: 425px) {
     .assigment_Header {
         top: 0;
+    }
+
+    .assigment {
+        height: 93vh;
     }
 
     .assigment > .grid {
@@ -536,6 +552,11 @@
         margin: auto;
     }
 
+    .assigment {
+        height: 93vh;
+    }
+
+
     .assigment > .grid > div {
         position: relative;
         width: 90%;
@@ -606,6 +627,11 @@
         margin: auto;
     }
 
+    .assigment {
+        height: 98vh;
+    }
+
+
     .assigment > .grid > div {
         /*border: 1px solid red;*/
         position: relative;
@@ -626,6 +652,9 @@
         bottom: 25px;
     }
 
+    .assigment {
+        height: 93vh;
+    }
 
     .assigment > .grid {
         overflow: auto;
@@ -710,6 +739,10 @@
         /*top: 0;*/
         bottom: 0;
         margin: auto;
+    }
+
+    .assigment {
+        height: 93vh;
     }
 
     .assigment > .grid > div {

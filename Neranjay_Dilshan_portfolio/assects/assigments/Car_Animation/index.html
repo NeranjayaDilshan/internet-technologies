@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neranjaya | Car Animation</title>
+    <link href="assects/image/car.png" rel="icon">
+    <link rel="stylesheet" href="assects/css/normalize.css">
+    <style>
+
+        body {
+            overflow: hidden;
+        }
+
+        body > div {
+            background: url(assects/image/sky.jpg);
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+
+        }
+
+        body > div > div:nth-child(2) {
+            background: url(assects/image/road.jpg);
+            width: 400%;
+            height: 300px;
+            background-repeat: repeat-x;
+            position: absolute;
+            bottom: 0;
+            animation: build_move 10s infinite;
+        }
+
+        body > div > div:nth-child(1) {
+            background: url(assects/image/city.png);
+            width: 400%;
+            height: 254px;
+            background-repeat: repeat-x;
+            position: absolute;
+            top: 234px;
+            animation: build_move 10s infinite;
+        }
+
+        body > div > div:nth-child(3) > img:first-child {
+            width: 29vw;
+            position: absolute;
+            margin: auto;
+            top: 331px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        body > div > div:nth-child(3) > img:nth-child(2) {
+            width: 6vw;
+            position: absolute;
+            margin: auto;
+            top: 414px;
+            bottom: 0;
+            right: 276px;
+            left: 0;
+            animation: car 10s infinite;
+        }
+
+        body > div > div:nth-child(3) > img:nth-child(3) {
+            width: 6vw;
+            position: absolute;
+            margin: auto;
+            top: 411px;
+            bottom: 0;
+            right: 0;
+            left: 257px;
+            animation: car 10s infinite;
+
+        }
+
+
+        @keyframes build_move {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-75%);
+            }
+        }
+
+        @keyframes car {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <div></div>
+    <div></div>
+    <div>
+        <img src="assects/image/car.png" alt="">
+        <img src="assects/image/wheel.png" alt="">
+        <img src="assects/image/wheel.png" alt="">
+    </div>
+</div>
+</body>
+</html>
+
