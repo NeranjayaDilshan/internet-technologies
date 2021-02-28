@@ -36,7 +36,7 @@
     margin-top: 50px;
     margin-bottom: 30px;
     padding-left: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .skill > section > div {
@@ -136,22 +136,25 @@
 .java {
     width: 90%;
     background-color: rgba(23, 70, 104, 1);
+    /*background-color: rgba(41, 41, 41, 1);*/
 }
 
 .html {
     width: 80%;
     background-color: rgba(23, 70, 104, 1);
-
+    /*background-color: rgba(41, 41, 41, 1);*/
 }
 
 .css {
     width: 65%;
     background-color: rgba(23, 70, 104, 1);
+    /*background-color: rgba(41, 41, 41, 1);*/
 }
 
 .mysql {
     width: 70%;
     background-color: rgba(23, 70, 104, 1);
+    /*background-color: rgba(41, 41, 41, 1);*/
 }
 
 @media all and (max-width: 320px) {

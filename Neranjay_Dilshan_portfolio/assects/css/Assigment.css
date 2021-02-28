@@ -79,7 +79,7 @@
 
 .grid > div {
     border: 1px solid black;
-    background: white;
+    background: #d2d2d2;
     position: relative;
     width: 75%;
     height: 465px;
