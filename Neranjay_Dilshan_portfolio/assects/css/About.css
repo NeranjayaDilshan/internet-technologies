@@ -87,7 +87,7 @@
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
     .about > article > div {
-        font-size: 25px;
+        font-size: 25px !important;
     }
 }
 
