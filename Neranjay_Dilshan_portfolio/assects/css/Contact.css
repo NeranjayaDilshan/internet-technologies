@@ -28,13 +28,12 @@
 }
 
 
-/*.text {
+.text {
     text-align: center;
     color: white;
     font-size: 14px;
-}*/
+}
 
-/*
 @media all and (max-width: 320px) {
     .text {
         font-size: 15px;
@@ -45,4 +44,4 @@
     .text {
         font-size: 15px;
     }
-}*/
+}
