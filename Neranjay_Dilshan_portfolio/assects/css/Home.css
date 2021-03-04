@@ -41,7 +41,22 @@
     bottom: 0;
     margin: 0;
     z-index: 2;
+    transition: all 1s;
 }
+/*      Hide And Load       */
+/*
+.hide {
+    opacity: 0;
+    left: -100%;
+}
+
+.show {
+    opacity: 1;
+    left: 0;
+}
+*/
+
+/*      Hide And Load       */
 
 .home > nav > ul {
     list-style: none;

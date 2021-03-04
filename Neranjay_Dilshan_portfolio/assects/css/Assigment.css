@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.assigment > .head > div {
+.main_div {
     width: 150px;
     height: 40px;
     background-color: rgba(23, 70, 104, 1);
@@ -38,7 +38,7 @@
     position: relative;
 }
 
-.assigment > .head > div > div {
+.main_div > div {
     width: max-content;
     height: max-content;
     left: 0;
@@ -78,14 +78,15 @@
 }
 
 .grid > div {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     background: #d2d2d2;
     position: relative;
     width: 75%;
     height: 465px;
     border-radius: 20px;
     margin: 20px;
-    box-shadow: 2px 2px 7px 4px floralwhite;
+    /*box-shadow: 2px 2px 7px 4px floralwhite;*/
+    border: 1px solid #fff;
 }
 
 .grid > div > div:nth-child(1) {
@@ -273,19 +274,6 @@
         position: relative;
     }
 
-    .grid > div > div:nth-child(3) > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        font-size: 15px;
-        color: white;
-    }
-
     .view_more {
         display: none;
     }
@@ -298,7 +286,7 @@
         bottom: 50px
     }
 
-    .assigment > .head > div {
+    .main_div {
         width: 90px;
         height: 20px;
         background-color: rgba(23, 70, 104, 1);
@@ -307,17 +295,8 @@
         position: relative;
     }
 
-    .assigment > .head > div > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
+    .main_div > div {
         font-size: 15px;
-        color: white;
     }
 }
 
@@ -383,19 +362,6 @@
         position: relative;
     }
 
-    .grid > div > div:nth-child(3) > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        font-size: 15px;
-        color: white;
-    }
-
     .view_more {
         display: none;
     }
@@ -406,7 +372,7 @@
         position: relative;
     }
 
-    .assigment > .head > div {
+    .main_div {
         width: 90px;
         height: 20px;
         background-color: rgba(23, 70, 104, 1);
@@ -415,17 +381,8 @@
         position: relative;
     }
 
-    .assigment > .head > div > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
+    .main_div > div {
         font-size: 15px;
-        color: white;
     }
 }
 
@@ -490,19 +447,6 @@
         position: relative;
     }
 
-    .grid > div > div:nth-child(3) > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        font-size: 15px;
-        color: white;
-    }
-
     .view_more {
         display: none;
     }
@@ -514,7 +458,7 @@
         position: relative;
     }
 
-    .assigment > .head > div {
+    .main_div {
         width: 90px;
         height: 20px;
         background-color: rgba(23, 70, 104, 1);
@@ -523,7 +467,7 @@
         position: relative;
     }
 
-    .assigment > .head > div > div {
+    .main_div > div {
         width: max-content;
         height: max-content;
         left: 0;
@@ -593,19 +537,6 @@
         margin: auto;
         border-radius: 15px;
         position: relative;
-    }
-
-    .grid > div > div:nth-child(3) > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        font-size: 15px;
-        color: white;
     }
 
     .view_more {
@@ -708,19 +639,6 @@
         position: relative;
     }
 
-    .grid > div > div:nth-child(3) > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        font-size: 15px;
-        color: white;
-    }
-
     .view_more {
         display: none;
     }
@@ -783,16 +701,4 @@
         position: relative;
     }
 
-    .grid > div > div:nth-child(3) > div {
-        width: max-content;
-        height: max-content;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        position: absolute;
-        font-size: 15px;
-        color: white;
-    }
 }

@@ -49,7 +49,7 @@
               data-rotate='[ " UX/UI Designer", "Web Developer"]'>
                 </span>
     </article>
-    <nav>
+    <nav id="navId" class="nav">
         <ul>
             <li><a href="https://www.facebook.com/profile.php?id=100015902593978" target="_blank"><i
                     class="fab fa-facebook"></i></a></li>
@@ -120,13 +120,13 @@
 </section>
 <section class="assigment">
     <section class="head">
-        <div>
+        <div class="main_div">
             <div>All</div>
         </div>
-        <div>
+        <div class="main_div">
             <div>Java</div>
         </div>
-        <div>
+        <div class="main_div">
             <div>Web</div>
         </div>
     </section>
@@ -267,13 +267,13 @@
 </section>
 <section class="assigment">
     <section class="head">
-        <div>
+        <div class="main_div">
             <div>All</div>
         </div>
-        <div>
+        <div class="main_div">
             <div>Java</div>
         </div>
-        <div>
+        <div class="main_div">
             <div>Web</div>
         </div>
     </section>
@@ -349,11 +349,11 @@
         E-mail : neranjayadilshan@gmail.com <br>
         Contact Me : +94 789154821 / +94764640457 <br>
 
-     <!--   <h5 style="text-align: center;color: white;position: relative;top: 0">Thanks For Visiting Me</h5>
-        <h5 style="text-align: center;color: white;position: relative;top: 5px;font-size: 14px">
-            E-mail : neranjayadilshan@gmail.com </h5>
-        <h5 style="text-align: center;color: white;position: relative;top: 3px;font-size: 14px">Contact Me : +94
-            789154821 / +94764640457</h5>-->
+        <!--   <h5 style="text-align: center;color: white;position: relative;top: 0">Thanks For Visiting Me</h5>
+           <h5 style="text-align: center;color: white;position: relative;top: 5px;font-size: 14px">
+               E-mail : neranjayadilshan@gmail.com </h5>
+           <h5 style="text-align: center;color: white;position: relative;top: 3px;font-size: 14px">Contact Me : +94
+               789154821 / +94764640457</h5>-->
 
     </footer>
 </section>
@@ -420,6 +420,29 @@
         setTimeout(function () {
             that.tick();
         }, delta);
-    }</script>
+    }
+
+    /*         nav hiding            */
+    /*
+     $(document).scroll(function () {
+
+         myID = document.getElementById("navId");
+         console.log("Console " + myID)
+
+         var myScrollFunc = function () {
+             var y = window.scrollY;
+             if (y >= 100) {
+                 myID.className = "nav hide"
+             } else {
+                 myID.className = "nav show"
+             }
+         };
+
+         window.addEventListener("scroll", myScrollFunc);
+     });
+     */
+    /*         nav hiding            */
+
+</script>
 </body>
 </html>
