@@ -124,7 +124,7 @@
     font-size: 18px;
 }
 
-.tile> div:nth-child(1) > img {
+.image > img {
     position: absolute;
     width: 100%;
     left: 0;
