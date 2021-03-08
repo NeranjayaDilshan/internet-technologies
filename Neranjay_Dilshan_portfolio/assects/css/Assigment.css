@@ -82,8 +82,8 @@
     background: #d2d2d2;
     position: relative;
     width: 75%;
-    height: 465px;
-    border-radius: 20px;
+    height: 380px;
+    border-radius: 13px;
     margin: 20px;
     /*box-shadow: 2px 2px 7px 4px floralwhite;*/
     border: 1px solid #fff;
@@ -121,41 +121,18 @@
     color: black;
     padding: 5px;
     margin: 10px;
-    font-size: 18px;
+    /*font-size: 18px;*/
 }
 
 .image > img {
     position: absolute;
     width: 100%;
     left: 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 
-.tile > div:nth-child(3) {
-    width: 200px;
-    height: 40px;
-    background-color: rgba(23, 70, 104, 1);
-    margin: auto;
-    border-radius: 15px;
-    position: relative;
-    top: 135px;
-}
-
-.tile > div:nth-child(3) > div {
-    width: max-content;
-    height: max-content;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    position: absolute;
-    font-size: 20px;
-    color: red;
-
-}
-
+/*
 .tile > div:nth-child(3) > div > a {
     color: white;
     text-decoration: none;
@@ -178,6 +155,7 @@
     color: white;
     text-align: center;
 }
+*/
 
 
 /*---------------------------------Animation-----------------------------------------*/
@@ -237,48 +215,45 @@
         height: 85vh;
     }
 
-    .assigment > .grid > div {
+    .tile {
         position: relative;
         width: 90%;
         /*height: 75%;*/
-        height: 450px;
+        height: 315px;
         margin: 10px;
     }
 
-    .assigment > .grid > div > div:nth-child(1) {
+    .image {
         width: 100%;
         height: 50%;
         /*border: 1px solid green;*/
     }
 
 
-    .grid > div > div:nth-child(2) {
-        top: -122px;
+    .tile > div:nth-child(2) {
+        top: -85px;
         height: 60%;
     }
 
-    .grid > div > div:nth-child(2) > div:nth-child(1) {
+    .tile > div:nth-child(2) > div:nth-child(1) {
         font-size: 15px;
     }
 
-    .grid > div > div:nth-child(2) > p {
-        font-size: 15px;
-    }
-
-    .grid > div > div:nth-child(3) {
-        top: -100px;
-        width: 150px;
-        height: 30px;
-        background-color: rgba(23, 70, 104, 1);
-        margin: auto;
-        border-radius: 15px;
-        position: relative;
-    }
-
-    .view_more {
+    /* .tile > div:nth-child(2) > p {
+         font-size: 12px;
+     }*/
+    /*  .grid > div > div:nth-child(3) {
+          top: -100px;
+          width: 150px;
+          height: 30px;
+          background-color: rgba(23, 70, 104, 1);
+          margin: auto;
+          border-radius: 15px;
+          position: relative;
+      }*/
+    /*.view_more {
         display: none;
-    }
-
+    }*/
     .assigment > .head {
         height: 50px;
         display: none;
@@ -325,44 +300,42 @@
         margin: auto;
     }
 
-    .assigment > .grid > div {
+    .tile {
         position: relative;
         width: 90%;
         /*height: 75%;*/
-        height: 450px;
+        height: 380px;
         margin: 10px;
     }
 
-    .assigment > .grid > div > div:nth-child(1) {
+    .image {
         width: 100%;
         height: 50%;
         /*border: 1px solid green;*/
     }
 
 
-    .grid > div > div:nth-child(2) {
-        top: -122px;
+    .tile > div:nth-child(2) {
+        top: -75px;
         height: 60%;
     }
 
-    .grid > div > div:nth-child(2) > div:nth-child(1) {
+    .tile > div:nth-child(2) > div:nth-child(1) {
         font-size: 17px;
     }
 
-    .grid > div > div:nth-child(2) > p {
-        font-size: 17px;
-    }
-
-    .grid > div > div:nth-child(3) {
-        top: -115px;
-        width: 150px;
-        height: 30px;
-        background-color: rgba(23, 70, 104, 1);
-        margin: auto;
-        border-radius: 15px;
-        position: relative;
-    }
-
+    /*  .tile> div:nth-child(2) > p {
+          font-size: 13px;
+      }*/
+    /* .grid > div > div:nth-child(3) {
+         top: -115px;
+         width: 150px;
+         height: 30px;
+         background-color: rgba(23, 70, 104, 1);
+         margin: auto;
+         border-radius: 15px;
+         position: relative;
+     }*/
     .view_more {
         display: none;
     }
@@ -410,27 +383,27 @@
         margin: auto;
     }
 
-    .assigment > .grid > div {
+    .tile {
         position: relative;
         width: 90%;
         /*height: 75%;*/
-        height: 450px;
+        height: 380px;
         margin: 10px;
     }
 
-    .assigment > .grid > div > div:nth-child(1) {
+    .image {
         width: 100%;
         height: 50%;
         /*border: 1px solid green;*/
     }
 
 
-    .grid > div > div:nth-child(2) {
-        top: -95px;
+    .tile > div:nth-child(2) {
+        top: -67px;
         height: 60%;
     }
 
-    .grid > div > div:nth-child(2) > div:nth-child(1) {
+    .tile > div:nth-child(2) > div:nth-child(1) {
         font-size: 17px;
     }
 
@@ -438,16 +411,15 @@
         font-size: 17px;
     }
 
-    .grid > div > div:nth-child(3) {
-        top: -115px;
-        width: 150px;
-        height: 30px;
-        background-color: rgba(23, 70, 104, 1);
-        margin: auto;
-        border-radius: 15px;
-        position: relative;
-    }
-
+    /* .grid > div > div:nth-child(3) {
+         top: -115px;
+         width: 150px;
+         height: 30px;
+         background-color: rgba(23, 70, 104, 1);
+         margin: auto;
+         border-radius: 15px;
+         position: relative;
+     }*/
     .view_more {
         display: none;
     }
@@ -485,7 +457,7 @@
 @media all and (min-width: 425px) and (max-width: 580px) {
     .assigment > .grid {
         overflow: auto;
-        top: 50px;
+        /*top: 50px;*/
         position: absolute;
         display: grid;
         grid-gap: 5px;
@@ -502,7 +474,7 @@
     }
 
 
-    .assigment > .grid > div {
+    .tile {
         position: relative;
         width: 90%;
         /*height: 75%;*/
@@ -510,7 +482,7 @@
         margin: 10px;
     }
 
-    .assigment > .grid > div > div:nth-child(1) {
+    .image {
         width: 100%;
         height: 50%;
         /*border: 1px solid green;*/
@@ -518,7 +490,7 @@
 
 
     .grid > div > div:nth-child(2) {
-        top: -35px;
+        top: -50px;
         height: 60%;
     }
 
@@ -530,16 +502,15 @@
         font-size: 17px;
     }
 
-    .grid > div > div:nth-child(3) {
-        top: -115px;
-        width: 150px;
-        height: 30px;
-        background-color: rgba(23, 70, 104, 1);
-        margin: auto;
-        border-radius: 15px;
-        position: relative;
-    }
-
+    /* .grid > div > div:nth-child(3) {
+         top: -115px;
+         width: 150px;
+         height: 30px;
+         background-color: rgba(23, 70, 104, 1);
+         margin: auto;
+         border-radius: 15px;
+         position: relative;
+     }*/
     .view_more {
         display: none;
     }
@@ -547,7 +518,7 @@
 
 @media all and (min-width: 580px) and (max-width: 768px) {
     .assigment > .grid {
-        top: 70px;
+        /*top: 70px;*/
         position: absolute;
         display: grid;
         grid-gap: 5px;
@@ -590,7 +561,7 @@
 
     .assigment > .grid {
         overflow: auto;
-        top: 50px;
+        /*top: 50px;*/
         position: absolute;
         display: grid;
         grid-gap: 5px;
@@ -602,23 +573,23 @@
         margin: auto;
     }
 
-    .assigment > .grid > div {
+    .tile {
         position: relative;
         width: 90%;
         /*height: 75%;*/
-        height: 450px;
+        height: 380px;
         margin: 10px;
     }
 
-    .assigment > .grid > div > div:nth-child(1) {
+    .image {
         width: 100%;
         height: 50%;
         /*border: 1px solid green;*/
     }
 
 
-    .grid > div > div:nth-child(2) {
-        top: -120px;
+    .tile > div:nth-child(2) {
+        top: -93px;
         height: 60%;
     }
 
@@ -630,16 +601,15 @@
         font-size: 17px;
     }
 
-    .grid > div > div:nth-child(3) {
-        top: -115px;
-        width: 160px;
-        height: 35px;
-        background-color: rgba(23, 70, 104, 1);
-        margin: auto;
-        border-radius: 15px;
-        position: relative;
-    }
-
+    /* .grid > div > div:nth-child(3) {
+         top: -115px;
+         width: 160px;
+         height: 35px;
+         background-color: rgba(23, 70, 104, 1);
+         margin: auto;
+         border-radius: 15px;
+         position: relative;
+     }*/
     .view_more {
         display: none;
     }
@@ -648,7 +618,7 @@
 @media all and (max-width: 1275px) and (min-width: 1024px) {
     .assigment > .grid {
         overflow: auto;
-        top: 50px;
+        /*top: 50px;*/
         position: absolute;
         display: grid;
         grid-gap: 5px;
@@ -692,14 +662,14 @@
         font-size: 17px;
     }
 
-    .grid > div > div:nth-child(3) {
-        top: -115px;
-        width: 160px;
-        height: 35px;
-        background-color: rgba(23, 70, 104, 1);
-        margin: auto;
-        border-radius: 15px;
-        position: relative;
-    }
+    /* .grid > div > div:nth-child(3) {
+         top: -115px;
+         width: 160px;
+         height: 35px;
+         background-color: rgba(23, 70, 104, 1);
+         margin: auto;
+         border-radius: 15px;
+         position: relative;
+     }*/
 
 }
