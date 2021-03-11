@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="assects/css/Education.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!---------------------------------------------------------------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---------------------------------------------------------------------->
+
+
     <!--    <link rel="stylesheet" href="assects/bootsrap/css/bootstrap.css">-->
 
 
@@ -67,10 +72,12 @@
     </nav>
 </section>
 <section id="about" class="about_Header">
-    <div>A B O U T M E</div>
+    <div data-aos="fade-left">A B O U T M E</div>
 </section>
 <section class="about">
-    <article>
+    <article data-aos="fade-right"
+             data-aos-offset="300"
+             data-aos-easing="ease-in-sine">
         <div>
             A<span style="color: red">.</span>D<span style="color: red">.</span> <span style="color: red">N</span>eranjaya
             <span style="color: red">D</span>ilshan<br>
@@ -90,7 +97,7 @@
     </article>
 </section>
 <section id="skills" class="skill_Header">
-    <div>S K I L L S</div>
+    <div data-aos="fade-left">S K I L L S</div>
 </section>
 <section class="skill">
     <section>
@@ -116,7 +123,7 @@
     </section>
 </section>
 <section id="assigment" class="assigment_Header">
-    <div>A S S I G M E N T</div>
+    <div data-aos="fade-left">A S S I G M E N T</div>
 </section>
 <section class="assigment">
     <section class="head">
@@ -131,7 +138,7 @@
         </div>
     </section>
     <section id="web" class="grid">
-        <div class="tile">
+        <div class="tile" data-aos="flip-right">
             <div class="image">
                 <img src="assects/image/carAni.PNG" alt="">
             </div>
@@ -155,7 +162,7 @@
             </div>
         </div>
 
-        <div class="tile">
+        <div class="tile" data-aos="flip-left">
             <div class="image">
                 <img src="assects/image/Capture.PNG" alt="">
             </div>
@@ -176,7 +183,7 @@
             </div>
         </div>
 
-        <div class="tile">
+        <div class="tile" data-aos="flip-right">
             <div class="image">
                 <img src="assects/image/css-slider.png" alt="">
             </div>
@@ -196,7 +203,7 @@
                 <a href="assects/assigments/Slider_Animation/index.html" target="_blank">View Project</a>
             </div>
         </div>
-        <div class="tile">
+        <div class="tile" data-aos="flip-right">
             <div class="image">
                 <img src="assects/image/colorDiv.PNG" alt="">
             </div>
@@ -216,7 +223,7 @@
                 <a href="assects/assigments/Section_Dividing/index.html" target="_blank">View Project</a>
             </div>
         </div>
-        <div class="tile">
+        <div class="tile" data-aos="flip-left">
             <div class="image">
                 <img src="assects/image/colorDiv.PNG" alt="">
             </div>
@@ -236,7 +243,7 @@
                 <a href="assects/assigments/Section_Dividing/index.html" target="_blank">View Project</a>
             </div>
         </div>
-        <div class="tile">
+        <div class="tile" data-aos="flip-right">
             <div class="image">
                 <img src="assects/image/colorDiv.PNG" alt="">
             </div>
@@ -259,7 +266,7 @@
     </section>
 </section>
 <section id="projects" class="project_Header">
-    <div>P R O J E C T</div>
+    <div data-aos="fade-left">P R O J E C T</div>
 </section>
 <section class="assigment">
     <section class="head">
@@ -315,7 +322,7 @@
     </div>
 </section>-->
 <section id="comment" class="Comment_Header">
-    <div>C O M M E N T S</div>
+    <div data-aos="fade-left">C O M M E N T S</div>
 </section>
 <section class="comment col-lg-12">
     <section class="mainSection">
@@ -337,7 +344,7 @@
     </section>
 </section>
 <section id="contact" class="contact_Header">
-    <div>C O N T A C T</div>
+    <div data-aos="fade-left">C O N T A C T</div>
 </section>
 <section class="contact">
     <footer class="text">
@@ -439,6 +446,10 @@
      */
     /*         nav hiding            */
 
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </body>
 </html>

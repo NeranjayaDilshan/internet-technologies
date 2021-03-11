@@ -26,3 +26,8 @@
 * {
     scroll-behavior: smooth;
 }
+
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration:1000ms !important;
+}
