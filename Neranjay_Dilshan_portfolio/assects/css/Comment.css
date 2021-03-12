@@ -1,8 +1,6 @@
 .Comment_Header {
     height: 50px;
     position: relative;
-    /*bottom: 5px;*/
-
     background: rgba(41, 41, 41, 0.7);
     color: red;
     padding: 0;

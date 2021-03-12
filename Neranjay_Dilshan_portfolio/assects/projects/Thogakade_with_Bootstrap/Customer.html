@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link href="assets/img/logo.png" rel="icon">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="#" style="color: white">SuperMarket</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html" style="font-weight: bold">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Customer.html" style="font-weight: bold">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Item.html" style="font-weight: bold">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Order.html" style="font-weight: bold">Orders</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="col-lg-12">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form class="p-4">
+                    <div class="mb-2 ">
+                        <label for="customerID" class="form-label col-12">customer ID
+                            <input type="text" class="form-control col-12" id="customerID"></label>
+                    </div>
+                    <div class="mb-2 ">
+                        <label for="customerName" class="form-label col-12">customer Name
+                            <input type="text" class="form-control col-12" id="customerName"></label>
+                    </div>
+                    <div class="mb-2">
+
+                        <label for="customerAddress" class="form-label col-12">customer Address
+                            <input type="text" class="form-control col-12" id="customerAddress"></label>
+                    </div>
+
+                    <div class="mb-2">
+
+                        <label for="CustomerContact" class="form-label col-12">Contact Number
+                            <input type="text" class="form-control col-12" id="CustomerContact"></label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Save Customer</button>
+                    <button type="submit" class="btn btn-danger">Cancel</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<section>
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <label for="CustomerSearch" class="form-label col-12">Search Here
+                        <input type="text" class="form-control" id="CustomerSearch"></label>
+                </div>
+            </div>
+            <!-- <div class="col">
+                 <button type="submit" class="btn btn-primary">Save Customer</button>
+             </div>-->
+        </div>
+    </div>
+</section>
+<section class="p-4">
+    <table class="table  table-hover">
+        <thead class="bg-primary text-white ">
+        <th>Customer ID</th>
+        <th>Customer Name</th>
+        <th>Customer Address</th>
+        <th>Customer Contact</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>C001</td>
+            <td>Neranjaya</td>
+            <td>Hoarana</td>
+            <td>0789154821</td>
+
+        </tr>
+        <tr>
+            <td>C002</td>
+            <td>Dilshan</td>
+            <td>Hoarana</td>
+            <td>0740761711</td>
+        </tr>
+        <tr>
+            <td>C003</td>
+            <td>ABCD</td>
+            <td>Hoarana</td>
+            <td>0789154821</td>
+
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<script src="assets/js/bootstrap.js"></script>
+</body>
+</html>

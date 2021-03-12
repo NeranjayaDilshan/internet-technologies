@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link href="assets/img/logo.png" rel="icon">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="#" style="color: white">SuperMarket</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html" style="font-weight: bold">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Customer.html" style="font-weight: bold">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Item.html" style="font-weight: bold">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active " href="Order.html" style="font-weight: bold">Orders</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section style="padding: 30px">
+    <div class="container ">
+        <div class="row">
+            <div class="col-3">
+                <label for="CustomerID" class="form-label col-12">Customer ID
+                    <select class="form-select" id="floatingSelectCust" aria-label="Floating label select example"
+                            id="CustomerID">
+                        <option value="1">C001</option>
+                        <option value="2">C002</option>
+                        <option value="3">C003</option>
+                    </select>
+                </label>
+            </div>
+            <div class="col-3">
+                <div>
+                    <label for="ItemCode" class="form-label col-12">Item Code
+                        <select class="form-select" id="floatingSelectItem" aria-label="Floating label select example"
+                                id="ItemCode">
+                            <option value="1">I001</option>
+                            <option value="2">I002</option>
+                            <option value="3">I003</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div>
+                    <label for="ItemName" class="form-label col-12">Item Name
+                        <input type="text" class="form-control" id="ItemName"></label>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <label for="QtyOnHand" class="form-label col-12">Qty On Hand
+                        <input type="text" class="form-control" id="QtyOnHand"></label>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <label for="UnitPrice" class="form-label col-12">Unit Price
+                        <input type="text" class="form-control" id="UnitPrice"></label>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <label for="Qty" class="form-label col-12">Qty
+                        <input type="text" class="form-control" id="Qty"></label>
+                </div>
+            </div>
+            <div class="col-3 p-4">
+                <button type="submit" class="btn btn-primary">Add to Cart</button>
+                <button type="submit" class="btn btn-danger">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="p-3">
+    <table class="table  table-hover">
+        <thead class="bg-primary text-white ">
+        <th>Item Code</th>
+        <th>Item Name</th>
+        <th>Qty</th>
+        <th>Unit Price</th>
+        <th>Total</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>I001</td>
+            <td>Test</td>
+            <td>10</td>
+            <td>100.00</td>
+            <td>1000.00</td>
+        </tr>
+        <tr>
+            <td>I002</td>
+            <td>Test2</td>
+            <td>20</td>
+            <td>150.00</td>
+            <td>3000.00</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <div class="container ">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+                <div>
+                    <label for="Total" class="form-label col-12">Grand Total
+                        <input type="text" class="form-control" id="Total"></label>
+                </div>
+            </div>
+            <div class="col-3 p-4">
+                <button type="submit" class="btn btn-primary">Pay Here</button>
+                <button type="submit" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="assets/js/bootstrap.js"></script>
+
+</body>
+</html>

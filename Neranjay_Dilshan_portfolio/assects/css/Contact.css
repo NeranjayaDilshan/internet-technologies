@@ -35,6 +35,9 @@
 }
 
 @media all and (max-width: 320px) {
+    .contact_Header{
+
+    }
     .text {
         font-size: 15px;
     }
