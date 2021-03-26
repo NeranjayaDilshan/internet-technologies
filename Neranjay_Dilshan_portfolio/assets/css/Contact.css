@@ -34,8 +34,6 @@
     font-size: 14px;
 }
 
-
-/*-------------------------------------------*/
 #foot div {
     position: absolute;
     top: 50%;
@@ -47,62 +45,37 @@
 
 }
 
-#foot div li {
-    list-style: none;
-    margin: 0 10px;
-
+.icons {
+    align-items: flex-start;
+    padding: 3vh 0.3vw;
 }
 
-#foot div li a .fa {
-    font-size: 20px;
-    color: white;
-    line-height: 40px;
-    transition: .5s;
-    padding-right: 10px;
 
-}
-
-#foot div li a {
-    text-decoration: none;
-    display: block;
-    width: 50px;
-    height: 40px;
-    background-color: #292929b3;
-    text-align: left;
-    padding-left: 15px;
-    transform: rotate(-30deg) skew(25deg) translate(0, 0);
-    transition: .5s;
-    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
-}
-
-#foot div li a:before {
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: -10px;
-    height: 20px;
-    width: 100%;
-    background-color: #292929b3;
-    transform: rotate(0deg) skewX(-45deg);
-}
-
-#foot div li a:hover {
-    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-    box-shadow: -50px 50px 50px rgba(0, 0, 0, .5);
-    border: 2px solid red;
-    border-bottom: none;
-
-}
-
-#foot div li:hover .fa {
+.icons i {
     color: red;
+    background: #65626280;
+    height: 15px;
+    width: 15px;
+    padding: 13px;
+    margin: 0 0.2vw;
+    border-radius: 50px;
+    border: 2px solid #65626280;
+    transition: all 200ms ease;
+    text-decoration: none;
+    position: relative;
 }
 
-#foot div li {
+.icons i:hover, .icons i:active {
     color: white;
+    border: 2px solid white;
+    background: none;
+    cursor: pointer !important;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    text-decoration: none;
+
 }
 
-/*-------------------------------------------*/
 @media all and (max-width: 320px) {
     .contact_Header {
 
